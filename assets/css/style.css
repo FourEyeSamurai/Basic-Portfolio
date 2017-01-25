@@ -2,18 +2,29 @@ body {
 	background-image: url(../images/seigaiha.png);
 }
 
+.container{
+	max-width: 940;
+	margin-left: auto;
+	margin-right: auto;
+}
 .content-area{
 	max-width: 960px;
 }
 
 .main-area{
+	width: 66%;
 	max-width: 650px;
 	background-color: #ffffff;
 	border-color: #dddddd;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: : 60px;
+	box-sizing: border-box;
 }
 
 .sidebar{
 	max-width: 270px;
+	color: #4aaaa5;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	float: right;
@@ -22,6 +33,7 @@ body {
 header{
 	background-color: #ffffff;
 	border-color: #cccccc;
+	background-position: width=3px left=213px, right=216px;
 }
 
 h1 {
@@ -30,7 +42,7 @@ h1 {
 	color: #FFFFFF;
 }
 
-h2{
+h2, h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 }
