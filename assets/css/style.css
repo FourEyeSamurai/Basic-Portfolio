@@ -2,24 +2,50 @@ body {
 	background-image: url(../images/seigaiha.png);
 }
 
-.container{
-	max-width: 940;
-	margin-left: auto;
-	margin-right: auto;
+/* Site Navigation */
+.site-nav {
+
 }
-.content-area{
-	max-width: 960px;
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li {
+	list-style: none;
+	float: right;
+}
+
+.site-nav a {
+	text-decoration: none;
+	padding: 10px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.site-nav a:hover {
+	color: #dddddd; 
+}
+
+.portfolio-picture {
+	max-width: 100%;
+	height: auto;
+	border-color: #dddddd;
+}
+/* End Site Navigation */
+
+.container{
+	max-width: 960;
+	height: auto;
+	
 }
 
 .main-area{
-	width: 66%;
 	max-width: 650px;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: : 60px;
-	box-sizing: border-box;
+	border-spacing: 115px;
 }
 
 .sidebar{
@@ -27,13 +53,13 @@ body {
 	color: #4aaaa5;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	float: right;
 }
+
 
 header{
 	background-color: #ffffff;
 	border-color: #cccccc;
-	background-position: width=3px left=213px, right=216px;
+	padding-top: 20px;
 }
 
 h1 {
@@ -54,7 +80,12 @@ p {
 
 footer{
 	background-color: #666666;
-
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
 }
 
 
